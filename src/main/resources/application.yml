@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+
+
+#  函数库地址 在 vm optionis中 配置
+#  windows地址: -Djava.library.path=D:\software\opencv\build\java\x64
+#  linux地址:   -Djava.library.path=/usr/local/opencv-4.1.1/build/lib/
+opencv:
+  lib:
+    linuxxmlpath: /usr/local/share/opencv4/haarcascades/haarcascade_frontalface_alt.xml
+    windowxmlpath: D:\software\opencv\sources\data\haarcascades\haarcascade_frontalface_alt.xml
