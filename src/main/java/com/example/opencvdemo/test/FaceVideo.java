@@ -29,7 +29,7 @@ public class FaceVideo {
 
     public static void main(String[] args){
         // 3- 本地图片人脸识别，识别成功并保存人脸图片到本地
-        String imgPath = "C:\\Users\\Administrator\\Pictures\\wang.jpg";
+        String imgPath = "C:\\Users\\Administrator\\Pictures\\shuai.jpg";
         face(imgPath);
     }
 
